@@ -38726,7 +38726,7 @@ A.D5.prototype={
 $0:function(){K.d9(this.a,"/",u.K)},
 $S:0}
 A.D6.prototype={
-$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1Lig_nvM0Nl5gpKY7Pri7Hy0uxV73DXAE/view?usp=sharing","Resume")},
+$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing","Resume")},
 $S:0}
 A.y0.prototype={
 G:function(a){var t=null,s=4281921405,r=4278252128,q=4293518576,p=S.f3(t,t,t,t,T.iL(C.bY,H.b([new P.j(4282873574),new P.j(4287517929)],u.W),C.bz,t,C.ba),t,C.M),o=new P.U(20,20),n=new P.U(20,20),m=new P.U(20,20),l=u.p
@@ -38750,7 +38750,7 @@ A.I5.prototype={
 $0:function(){K.d9(this.a,"/",u.K)},
 $S:0}
 A.I6.prototype={
-$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1Lig_nvM0Nl5gpKY7Pri7Hy0uxV73DXAE/view?usp=sharing","Resume")},
+$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing","Resume")},
 $S:0}
 Y.xi.prototype={
 G:function(a){return new A.ku(new Y.Ko(),null)}}
