@@ -38769,7 +38769,7 @@ Y.EJ.prototype={
 $0:function(){K.d9(this.a,"/second",u.K)},
 $S:0}
 Y.EK.prototype={
-$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1Lig_nvM0Nl5gpKY7Pri7Hy0uxV73DXAE/view?usp=sharing","Resume")},
+$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing","Resume")},
 $S:0}
 Y.EL.prototype={
 $0:function(){C.v.bK(window,"https://www.instagram.com/sarthakvaswani_/","Instagram")},
@@ -38799,7 +38799,7 @@ Y.IB.prototype={
 $0:function(){K.d9(this.a,"/second",u.K)},
 $S:0}
 Y.IC.prototype={
-$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1Lig_nvM0Nl5gpKY7Pri7Hy0uxV73DXAE/view?usp=sharing","Resume")},
+$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing","Resume")},
 $S:0}
 F.vH.prototype={
 G:function(a){var t=X.VY(C.T,C.l)
@@ -38845,7 +38845,7 @@ N.Er.prototype={
 $0:function(){K.d9(this.a,"/second",u.K)},
 $S:0}
 N.Es.prototype={
-$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1Lig_nvM0Nl5gpKY7Pri7Hy0uxV73DXAE/view?usp=sharing","Resume")},
+$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing","Resume")},
 $S:0}
 N.Et.prototype={
 $0:function(){C.v.bK(window,"https://github.com/SarthakVaswani/Flutter-Novel-App","Novel App")},
@@ -38883,7 +38883,7 @@ N.Ib.prototype={
 $0:function(){K.d9(this.a,"/second",u.K)},
 $S:0}
 N.Ic.prototype={
-$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1Lig_nvM0Nl5gpKY7Pri7Hy0uxV73DXAE/view?usp=sharing","Resume")},
+$0:function(){C.v.bK(window,"https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing","Resume")},
 $S:0}
 N.m6.prototype={
 gl:function(a){return this.b},
