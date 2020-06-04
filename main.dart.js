@@ -38744,7 +38744,7 @@ $0:function(){C.u.bA(window,"https://drive.google.com/file/d/1Lig_nvM0Nl5gpKY7Pr
 $S:0}
 A.vs.prototype={
 G:function(a){var t=null,s=4293518576,r=4281921405,q=4278252128,p=S.f3(t,t,t,t,T.iM(C.bY,H.b([new P.j(4282873574),new P.j(4287517929)],u.W),C.bz,t,C.ba),t,C.N),o=new P.T(20,20),n=new P.T(20,20),m=new P.T(20,20),l=u.p
-return M.p4(M.bM(t,E.Lo(T.bp(H.b([new T.aC(C.tk,M.bM(t,K.h8(new L.cm("assets/images/sv.jpg",t,t),t),t,t,t,t,230,t,t,t,230),t),new T.aC(C.nw,T.bp(H.b([L.S("Hola!",A.Q(t,t,new P.j(4294291225),t,t,t,t,t,t,t,t,32,t,t,t,t,!0,t,t,t,t,t,t),t,t),L.S("I am",A.Q(t,t,new P.j(s),t,t,t,t,t,t,t,t,24,t,t,t,t,!0,t,t,t,t,t,t),t,t),L.S("Sarthak Vaswani",A.Q(t,t,new P.j(4293716454),t,t,t,t,t,t,t,t,30,t,t,t,t,!0,t,t,t,t,t,t),t,t),L.S("Residing at New Delhi,  Currently pursuing",A.Q(t,t,new P.j(s),t,t,t,t,t,t,t,t,25,t,t,t,t,!0,t,t,t,t,t,t),C.eY,t),L.S("BCA at Vivekananda Institute of  Professional Studies",A.Q(t,t,new P.j(s),t,t,t,t,t,t,t,t,25,t,t,t,t,!0,t,t,t,t,t,t),C.eY,t),L.S("I design & build user interfaces",A.Q(t,t,new P.j(s),t,t,t,t,t,t,t,t,25,t,t,t,t,!0,t,t,t,t,t,t),t,t),new T.aC(C.tt,T.bp(H.b([T.bG(H.b([T.he(B.bV(t,!1,L.S("Projects",A.Q(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.r,t,t,!0,t,t,t,t,t,t),t,t),C.q,new P.j(r),t,t,t,t,t,t,t,t,40,t,t,new P.j(q),t,t,t,t,t,new A.I5(a),t,new X.a7(C.k,new K.Z(o,o,o,o)),t,t,t,t)),new T.b0(21,t,t,t),T.he(B.bV(t,!1,L.S("Home",A.Q(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.r,t,t,!0,t,t,t,t,t,t),t,t),C.q,new P.j(r),t,t,t,t,t,t,t,t,40,t,t,new P.j(q),t,t,t,t,t,new A.I6(a),t,new X.a7(C.k,new K.Z(n,n,n,n)),t,t,t,t)),new T.b0(21,t,t,t),T.he(B.bV(t,!1,L.S("Resume",A.Q(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.r,t,t,!0,t,t,t,t,t,t),t,t),C.q,new P.j(r),t,t,t,t,t,t,t,t,40,t,t,new P.j(q),t,t,t,t,t,new A.I7(),t,new X.a7(C.k,new K.Z(m,m,m,m)),t,t,t,t))],l),C.iR)],l),C.B,C.G),t)],l),C.B,C.G),t)],l),C.B,C.G)),t,new S.a4(0,1/0,1200,1/0),p,t,t,t,t,t,t))}}
+return M.p4(M.bM(t,E.Lo(T.bp(H.b([new T.aC(C.tk,M.bM(t,K.h8(new L.cm("assets/images/sv.jpg",t,t),t),t,t,t,t,230,t,t,t,230),t),new T.aC(C.nw,T.bp(H.b([L.S("Hola!",A.Q(t,t,new P.j(4294291225),t,t,t,t,t,t,t,t,32,t,t,t,t,!0,t,t,t,t,t,t),t,t),L.S("I am",A.Q(t,t,new P.j(s),t,t,t,t,t,t,t,t,24,t,t,t,t,!0,t,t,t,t,t,t),t,t),L.S("Sarthak Vaswani",A.Q(t,t,new P.j(4293716454),t,t,t,t,t,t,t,t,30,t,t,t,t,!0,t,t,t,t,t,t),t,t),L.S("Residing at New Delhi,  Currently pursuing",A.Q(t,t,new P.j(s),t,t,t,t,t,t,t,t,25,t,t,t,t,!0,t,t,t,t,t,t),C.eY,t),L.S("BCA at Vivekananda Institute of  Professional Studies",A.Q(t,t,new P.j(s),t,t,t,t,t,t,t,t,25,t,t,t,t,!0,t,t,t,t,t,t),C.eY,t),L.S("I design & build user interfaces",A.Q(t,t,new P.j(s),t,t,t,t,t,t,t,t,25,t,t,t,t,!0,t,t,t,t,t,t),t,t),new T.aC(C.ts,T.bp(H.b([T.bG(H.b([T.he(B.bV(t,!1,L.S("Projects",A.Q(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.r,t,t,!0,t,t,t,t,t,t),t,t),C.q,new P.j(r),t,t,t,t,t,t,t,t,40,t,t,new P.j(q),t,t,t,t,t,new A.I5(a),t,new X.a7(C.k,new K.Z(o,o,o,o)),t,t,t,t)),new T.b0(21,t,t,t),T.he(B.bV(t,!1,L.S("Home",A.Q(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.r,t,t,!0,t,t,t,t,t,t),t,t),C.q,new P.j(r),t,t,t,t,t,t,t,t,40,t,t,new P.j(q),t,t,t,t,t,new A.I6(a),t,new X.a7(C.k,new K.Z(n,n,n,n)),t,t,t,t)),new T.b0(21,t,t,t),T.he(B.bV(t,!1,L.S("Resume",A.Q(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.r,t,t,!0,t,t,t,t,t,t),t,t),C.q,new P.j(r),t,t,t,t,t,t,t,t,40,t,t,new P.j(q),t,t,t,t,t,new A.I7(),t,new X.a7(C.k,new K.Z(m,m,m,m)),t,t,t,t))],l),C.iR)],l),C.B,C.G),t)],l),C.B,C.G),t)],l),C.B,C.G)),t,new S.a4(0,1/0,1200,1/0),p,t,t,t,t,t,t))}}
 A.I5.prototype={
 $0:function(){K.d9(this.a,"/third",u.K)},
 $S:0}
@@ -38844,7 +38844,7 @@ t=new P.T(20,20)
 s=K.h8(o,L.kk(C.tJ,C.j,25))
 r=L.S("Town Shooter Game",A.Q(o,o,C.l,o,o,o,o,o,o,o,o,20,o,o,o,o,!0,o,o,o,o,o,o),o,o)
 p=new P.T(10,10)
-return M.p4(E.Lo(T.bp(H.b([M.bM(o,T.bp(H.b([new T.aC(C.hM,e,o),T.bp(H.b([new T.aC(C.tq,f,o),new T.aC(C.fa,g,o),new T.aC(C.fa,q,o),new T.aC(C.fa,V.mO(M.bM(o,T.bp(H.b([Q.o_(s,L.S("A Third Person Shooter Game with Unity 3D Engine",A.Q(o,o,C.l,o,o,o,o,o,o,o,o,20,o,o,o,o,!0,o,o,o,o,o,o),o,o),r),new T.aC(C.c7,T.bG(H.b([A.da(new Y.cb(new P.j(j),3,C.z),L.S(i,A.Q(o,o,C.l,o,o,o,o,o,o,o,o,20,o,o,o,o,!0,o,o,o,o,o,o),o,o),new P.j(k),200,new P.j(k),new N.Ex(),new X.a7(C.k,new K.Z(p,p,p,p)),new P.j(k))],d),C.L),o)],d),C.B,C.L),o,o,o,o,o,o,o,o,670),new P.j(l),new X.a7(C.k,new K.Z(t,t,t,t))),o)],d),C.B,C.G)],d),C.B,C.G),o,o,h,o,o,o,o,o,o)],d),C.B,C.G)))}}
+return M.p4(E.Lo(T.bp(H.b([M.bM(o,T.bp(H.b([new T.aC(C.hM,e,o),T.bp(H.b([new T.aC(C.tt,f,o),new T.aC(C.fa,g,o),new T.aC(C.fa,q,o),new T.aC(C.fa,V.mO(M.bM(o,T.bp(H.b([Q.o_(s,L.S("A Third Person Shooter Game with Unity 3D Engine",A.Q(o,o,C.l,o,o,o,o,o,o,o,o,20,o,o,o,o,!0,o,o,o,o,o,o),o,o),r),new T.aC(C.c7,T.bG(H.b([A.da(new Y.cb(new P.j(j),3,C.z),L.S(i,A.Q(o,o,C.l,o,o,o,o,o,o,o,o,20,o,o,o,o,!0,o,o,o,o,o,o),o,o),new P.j(k),200,new P.j(k),new N.Ex(),new X.a7(C.k,new K.Z(p,p,p,p)),new P.j(k))],d),C.L),o)],d),C.B,C.L),o,o,o,o,o,o,o,o,670),new P.j(l),new X.a7(C.k,new K.Z(t,t,t,t))),o)],d),C.B,C.G)],d),C.B,C.G),o,o,h,o,o,o,o,o,o)],d),C.B,C.G)))}}
 N.Er.prototype={
 $0:function(){K.d9(this.a,"/",u.K)},
 $S:0}
@@ -38881,7 +38881,7 @@ t=new P.T(10,10)
 s=new P.T(20,20)
 r=new P.T(20,20)
 q=new P.T(20,20)
-return M.p4(M.bM(p,E.Lo(T.bp(H.b([new T.aC(C.tr,g,p),new T.aC(C.fa,f,p),new T.aC(C.nx,b,p),new T.aC(C.nx,V.mO(M.bM(p,T.bp(H.b([Q.o_(d,L.S("A Third Person Shooter Game with Unity 3D Engine",A.Q(p,p,C.l,p,p,p,p,p,p,p,p,18,p,p,p,p,!0,p,p,p,p,p,p),p,p),c),new T.aC(C.c7,T.bG(H.b([A.da(new Y.cb(new P.j(m),3,C.z),S.hl(new L.cm(l,p,p)),new P.j(n),200,new P.j(n),new N.Ib(),new X.a7(C.k,new K.Z(t,t,t,t)),new P.j(n))],h),C.L),p)],h),C.B,C.L),p,p,p,p,p,p,p,p,670),new P.j(o),new X.a7(C.k,new K.Z(e,e,e,e))),p),new T.aC(C.ts,T.bG(H.b([T.he(B.bV(p,!1,L.S("Home",A.Q(p,p,C.j,p,p,p,p,p,p,p,p,13,p,C.r,p,p,!0,p,p,p,p,p,p),p,p),C.q,new P.j(k),p,p,p,p,p,p,p,p,40,p,p,new P.j(j),p,p,p,p,p,new N.Ic(a),p,new X.a7(C.k,new K.Z(s,s,s,s)),p,p,p,p)),new T.b0(21,p,p,p),T.he(B.bV(p,!1,L.S("About me",A.Q(p,p,C.j,p,p,p,p,p,p,p,p,13,p,C.r,p,p,!0,p,p,p,p,p,p),p,p),C.q,new P.j(k),p,p,p,p,p,p,p,p,40,p,p,new P.j(j),p,p,p,p,p,new N.Id(a),p,new X.a7(C.k,new K.Z(r,r,r,r)),p,p,p,p)),new T.b0(21,p,p,p),T.he(B.bV(p,!1,L.S("Resume",A.Q(p,p,C.j,p,p,p,p,p,p,p,p,13,p,C.r,p,p,!0,p,p,p,p,p,p),p,p),C.q,new P.j(k),p,p,p,p,p,p,p,p,40,p,p,new P.j(j),p,p,p,p,p,new N.Ie(),p,new X.a7(C.k,new K.Z(q,q,q,q)),p,p,p,p))],h),C.iR),p)],h),C.B,C.G)),p,new S.a4(0,1/0,1200,1/0),i,p,p,p,p,p,p))}}
+return M.p4(M.bM(p,E.Lo(T.bp(H.b([new T.aC(C.tq,g,p),new T.aC(C.fa,f,p),new T.aC(C.nx,b,p),new T.aC(C.nx,V.mO(M.bM(p,T.bp(H.b([Q.o_(d,L.S("A Third Person Shooter Game with Unity 3D Engine",A.Q(p,p,C.l,p,p,p,p,p,p,p,p,18,p,p,p,p,!0,p,p,p,p,p,p),p,p),c),new T.aC(C.c7,T.bG(H.b([A.da(new Y.cb(new P.j(m),3,C.z),S.hl(new L.cm(l,p,p)),new P.j(n),200,new P.j(n),new N.Ib(),new X.a7(C.k,new K.Z(t,t,t,t)),new P.j(n))],h),C.L),p)],h),C.B,C.L),p,p,p,p,p,p,p,p,670),new P.j(o),new X.a7(C.k,new K.Z(e,e,e,e))),p),new T.aC(C.tr,T.bG(H.b([T.he(B.bV(p,!1,L.S("Home",A.Q(p,p,C.j,p,p,p,p,p,p,p,p,13,p,C.r,p,p,!0,p,p,p,p,p,p),p,p),C.q,new P.j(k),p,p,p,p,p,p,p,p,40,p,p,new P.j(j),p,p,p,p,p,new N.Ic(a),p,new X.a7(C.k,new K.Z(s,s,s,s)),p,p,p,p)),new T.b0(21,p,p,p),T.he(B.bV(p,!1,L.S("About me",A.Q(p,p,C.j,p,p,p,p,p,p,p,p,13,p,C.r,p,p,!0,p,p,p,p,p,p),p,p),C.q,new P.j(k),p,p,p,p,p,p,p,p,40,p,p,new P.j(j),p,p,p,p,p,new N.Id(a),p,new X.a7(C.k,new K.Z(r,r,r,r)),p,p,p,p)),new T.b0(21,p,p,p),T.he(B.bV(p,!1,L.S("Resume",A.Q(p,p,C.j,p,p,p,p,p,p,p,p,13,p,C.r,p,p,!0,p,p,p,p,p,p),p,p),C.q,new P.j(k),p,p,p,p,p,p,p,p,40,p,p,new P.j(j),p,p,p,p,p,new N.Ie(),p,new X.a7(C.k,new K.Z(q,q,q,q)),p,p,p,p))],h),C.iR),p)],h),C.B,C.G)),p,new S.a4(0,1/0,1200,1/0),i,p,p,p,p,p,p))}}
 N.I8.prototype={
 $0:function(){C.u.bA(window,"https://github.com/svas0000/Flutter-Novel-App","Novel App")},
 $S:0}
@@ -41010,11 +41010,11 @@ C.k8=new V.af(16,0,16,0)
 C.k9=new V.af(1,10,1,10)
 C.tp=new V.af(20,10,20,10)
 C.nx=new V.af(20,12,20,12)
-C.tq=new V.af(20,13,20,13)
 C.fa=new V.af(20,20,20,20)
-C.tr=new V.af(20,30,20,30)
-C.ts=new V.af(20,40,20,40)
-C.tt=new V.af(20,45,20,45)
+C.tq=new V.af(20,30,20,30)
+C.tr=new V.af(20,40,20,40)
+C.ts=new V.af(20,45,20,45)
+C.tt=new V.af(20,8,20,8)
 C.ny=new V.af(24,0,24,0)
 C.hM=new V.af(25,25,25,25)
 C.tu=new V.af(25,30,25,30)
