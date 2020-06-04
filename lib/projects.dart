@@ -593,7 +593,7 @@ class MProjects extends StatelessWidget {
                   ListTile(
                     leading: CircleAvatar(
                       child: Icon(
-                        Icons.camera,
+                        Icons.games,
                         color: Colors.white,
                         size: 25,
                       ),
