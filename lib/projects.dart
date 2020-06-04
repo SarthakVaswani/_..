@@ -328,7 +328,7 @@ class DProjects extends StatelessWidget {
                                     style: TextStyle(color: Colors.black, fontSize: 20),
                                   ),
                                   subtitle: Text(
-                                    'A Third Person Shooter Game with Unity 3D Engine',
+                                    'A Third Person Shooter Game made with Unity 3D Engine',
                                     style: TextStyle(color: Colors.black, fontSize: 20),
                                   ),
                                 ),
@@ -603,7 +603,7 @@ class MProjects extends StatelessWidget {
                       style: TextStyle(color: Colors.black, fontSize: 20),
                     ),
                     subtitle: Text(
-                      'A Third Person Shooter Game with Unity 3D Engine',
+                      'A Third Person Shooter Game made with Unity 3D Engine',
                       style: TextStyle(color: Colors.black, fontSize: 18),
                     ),
                   ),
