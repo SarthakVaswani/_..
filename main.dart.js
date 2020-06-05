@@ -39285,7 +39285,7 @@ N.NQ.prototype={
 $0:function(){C.u.bC(window,"https://github.com/SarthakVaswani/Flutter-Novel-App","Novel App")},
 $S:0}
 N.NR.prototype={
-$0:function(){C.u.bC(window,"https://pensive-saha-98024b.netlify.app/#/details-page","Novel App")},
+$0:function(){C.u.bC(window,"https://pensive-saha-98024b.netlify.app/#/","Novel App")},
 $S:0}
 N.NS.prototype={
 $0:function(){C.u.bC(window,"https://github.com/SarthakVaswani/Flutter-OCR-App","OCR Scan App")},
@@ -39313,7 +39313,7 @@ N.Ij.prototype={
 $0:function(){C.u.bC(window,"https://github.com/svas0000/Flutter-Novel-App","Novel App")},
 $S:0}
 N.Ik.prototype={
-$0:function(){C.u.bC(window,"https://pensive-saha-98024b.netlify.app/#/details-page","Novel App")},
+$0:function(){C.u.bC(window,"https://pensive-saha-98024b.netlify.app/#/","Novel App")},
 $S:0}
 N.Il.prototype={
 $0:function(){C.u.bC(window,"https://github.com/svas0000/Flutter-OCR-App","OCR Scan App")},
