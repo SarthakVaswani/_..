@@ -233,7 +233,7 @@ class _DProjectsState extends State<DProjects> {
                                           ),
                                           onPressed: () {
                                             html.window.open(
-                                                'https://pensive-saha-98024b.netlify.app/#/details-page',
+                                                'https://pensive-saha-98024b.netlify.app/#/',
                                                 'Novel App');
                                           },
                                         ),
@@ -511,7 +511,7 @@ class MProjects extends StatelessWidget {
                           ),
                           onPressed: () {
                             html.window.open(
-                                'https://pensive-saha-98024b.netlify.app/#/details-page',
+                                'https://pensive-saha-98024b.netlify.app/#/',
                                 'Novel App');
                           },
                         ),
