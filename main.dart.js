@@ -40155,7 +40155,7 @@ N.OP.prototype={
 $0:function(){C.q.bt(window,"https://github.com/SarthakVaswani/Town-Shooter-3D","Town Shooter Game")},
 $S:0}
 N.w7.prototype={
-G:function(a0){var t,s,r,q,p,o,n=null,m=4291417855,l=4282550004,k=4282598211,j="assets/images/github-logo.png",i=4281921405,h=4278252128,g=S.fi(n,n,n,n,T.j7(C.c7,H.a([new P.i(4282873574),new P.i(4287517929)],u.d),C.bC,n,C.bc),n,C.Q),f=u.t,e=T.bl(H.a([L.S("Projects",A.R(n,n,new P.i(4293059298),n,n,n,n,n,"Exo2",n,n,70,n,C.t,n,n,!0,n,n,n,n,n,n),n,n),L.S("_______________",A.R(n,n,n,n,n,n,n,n,n,n,n,29,n,C.ky,n,n,!0,n,n,n,n,n,n),n,1)],f),C.x,C.I),d=new P.T(20,20),c=K.eG(n,L.hF(C.nV,C.l,25)),b=L.S("TerraNews",A.R(n,n,C.l,n,n,n,n,n,n,n,n,20,n,n,n,n,!0,n,n,n,n,n,n),n,n),a=new P.T(10,10)
+G:function(a0){var t,s,r,q,p,o,n=null,m=4291417855,l=4282550004,k=4282598211,j="assets/images/github-logo.png",i=4281921405,h=4278252128,g=S.fi(n,n,n,n,T.j7(C.c7,H.a([new P.i(4282873574),new P.i(4287517929)],u.d),C.bC,n,C.bc),n,C.Q),f=u.t,e=T.bl(H.a([L.S("Projects",A.R(n,n,new P.i(4293059298),n,n,n,n,n,"Exo2",n,n,70,n,C.t,n,n,!0,n,n,n,n,n,n),n,n),L.S("_______________",A.R(n,n,n,n,n,n,n,n,n,n,n,29,n,C.ky,n,n,!0,n,n,n,n,n,n),n,1)],f),C.x,C.I),d=new P.T(20,20),c=K.eG(n,L.hF(C.nV,C.j,25)),b=L.S("TerraNews",A.R(n,n,C.l,n,n,n,n,n,n,n,n,20,n,n,n,n,!0,n,n,n,n,n,n),n,n),a=new P.T(10,10)
 d=V.iE(M.bF(n,T.bl(H.a([Q.j9(c,L.S("An App made for Earth",A.R(n,n,C.l,n,n,n,n,n,n,n,n,18,n,n,n,n,!0,n,n,n,n,n,n),n,n),b),new T.aA(C.bi,T.bC(H.a([A.cJ(new Y.bW(new P.i(k),3,C.w),S.fz(new L.ci(j,n,n)),new P.i(l),200,new P.i(l),new N.Jd(),new X.a5(new K.X(a,a,a,a),C.k),new P.i(l))],f),C.F),n)],f),C.x,C.F),n,n,n,n,n,n,n,n,670),new P.i(m),new X.a5(new K.X(d,d,d,d),C.k))
 a=new P.T(20,20)
 b=K.eG(n,L.hF(C.nU,C.j,25))
@@ -40164,12 +40164,12 @@ t=new P.T(10,10)
 s=new P.T(10,10)
 a=V.iE(M.bF(n,T.bl(H.a([Q.j9(b,L.S("An Online Novel App made with Flutter",A.R(n,n,C.l,n,n,n,n,n,n,n,n,18,n,n,n,n,!0,n,n,n,n,n,n),n,n),c),new T.aA(C.bi,T.bC(H.a([A.cJ(new Y.bW(new P.i(k),3,C.w),S.fz(new L.ci(j,n,n)),new P.i(l),200,new P.i(l),new N.Je(),new X.a5(new K.X(t,t,t,t),C.k),new P.i(l)),new T.b6(7,n,n,n),A.cJ(new Y.bW(new P.i(k),3,C.w),L.hF(C.u1,C.l,n),new P.i(l),200,new P.i(l),new N.Jf(),new X.a5(new K.X(s,s,s,s),C.k),new P.i(l))],f),C.F),n)],f),C.x,C.F),n,n,n,n,n,n,n,n,700),new P.i(m),new X.a5(new K.X(a,a,a,a),C.k))
 s=new P.T(20,20)
-t=K.eG(n,L.hF(C.nT,C.l,25))
+t=K.eG(n,L.hF(C.nT,C.j,25))
 c=L.S("OCR Scan App",A.R(n,n,C.l,n,n,n,n,n,n,n,n,20,n,n,n,n,!0,n,n,n,n,n,n),n,n)
 b=new P.T(10,10)
 s=V.iE(M.bF(n,T.bl(H.a([Q.j9(t,L.S("A OCR Scanning App made with Flutter",A.R(n,n,C.l,n,n,n,n,n,n,n,n,18,n,n,n,n,!0,n,n,n,n,n,n),n,n),c),new T.aA(C.bi,T.bC(H.a([A.cJ(new Y.bW(new P.i(k),3,C.w),S.fz(new L.ci(j,n,n)),new P.i(l),200,new P.i(l),new N.Jg(),new X.a5(new K.X(b,b,b,b),C.k),new P.i(l))],f),C.F),n)],f),C.x,C.F),n,n,n,n,n,n,n,n,670),new P.i(m),new X.a5(new K.X(s,s,s,s),C.k))
 b=new P.T(20,20)
-c=K.eG(n,L.hF(C.nS,C.l,25))
+c=K.eG(n,L.hF(C.nS,C.j,25))
 t=L.S("Town Shooter Game",A.R(n,n,C.l,n,n,n,n,n,n,n,n,20,n,n,n,n,!0,n,n,n,n,n,n),n,n)
 r=new P.T(10,10)
 q=new P.T(20,20)
