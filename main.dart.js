@@ -40052,7 +40052,7 @@ Y.FE.prototype={
 $0:function(){C.q.bt(window,"https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing","Resume")},
 $S:0}
 Y.FF.prototype={
-$0:function(){C.q.bt(window,"https://www.instagram.com/sarthakvaswani_/","Instagram")},
+$0:function(){C.q.bt(window,"https://www.instagram.com/sarthakvaswani/","Instagram")},
 $S:0}
 Y.FG.prototype={
 $0:function(){C.q.bt(window,"https://www.linkedin.com/in/sarthak-vaswani-55123a166/","LinkedIN")},
@@ -40064,7 +40064,7 @@ Y.wk.prototype={
 G:function(a){var t=null,s=4281921405,r=4278252128,q=u.t,p=new P.T(20,20),o=new P.T(20,20),n=new P.T(20,20)
 return M.bF(t,T.bl(H.a([new T.aA(C.tC,T.bl(H.a([M.bF(t,K.eG(new L.ci("assets/images/sv.jpg",t,t),t),t,t,t,t,270,t,t,t,270),new T.aA(C.nJ,T.bl(H.a([L.S("Sarthak Vaswani",A.R(t,t,t,t,t,t,t,t,"Exo2",t,t,40,t,C.t,t,t,!0,t,t,t,t,t,t),t,t),L.S("Flutter Developer / UI Designer",A.R(t,t,P.aP(C.M.an(127.5),255,255,255),t,t,t,t,t,t,t,t,17,t,t,t,t,!0,t,t,t,t,t,t),t,t),new T.b6(t,30,t,t),T.bC(H.a([A.cJ(t,T.bC(H.a([S.fz(new L.ci("assets/images/instagram.png",t,t))],q),C.F),t,t,t,new Y.JF(),t,t),new T.b6(20,t,t,t),A.cJ(t,T.bC(H.a([S.fz(new L.ci("assets/images/l.png",t,t))],q),C.F),t,t,t,new Y.JG(),t,t),new T.b6(30,t,t,t),A.cJ(t,T.bC(H.a([S.fz(new L.ci("assets/images/github-logo.png",t,t))],q),C.F),t,t,t,new Y.JH(),t,t)],q),C.F)],q),C.x,C.I),t)],q),C.x,C.I),t),new T.aA(C.tG,T.bC(H.a([T.hy(B.bY(t,!1,L.S("Projects",A.R(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.t,t,t,!0,t,t,t,t,t,t),t,t),C.r,new P.i(s),t,t,t,t,t,t,t,t,40,t,t,new P.i(r),t,t,t,t,t,t,new Y.JI(a),t,new X.a5(new K.X(p,p,p,p),C.k),t,t,t,t)),new T.b6(21,t,t,t),T.hy(B.bY(t,!1,L.S("About me",A.R(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.t,t,t,!0,t,t,t,t,t,t),t,t),C.r,new P.i(s),t,t,t,t,t,t,t,t,40,t,t,new P.i(r),t,t,t,t,t,t,new Y.JJ(a),t,new X.a5(new K.X(o,o,o,o),C.k),t,t,t,t)),new T.b6(21,t,t,t),T.hy(B.bY(t,!1,L.S("Resume",A.R(t,t,C.j,t,t,t,t,t,t,t,t,13,t,C.t,t,t,!0,t,t,t,t,t,t),t,t),C.r,new P.i(s),t,t,t,t,t,t,t,t,40,t,t,new P.i(r),t,t,t,t,t,t,new Y.JK(),t,new X.a5(new K.X(n,n,n,n),C.k),t,t,t,t))],q),C.ja),t)],q),C.x,C.I),t,new S.aa(0,1/0,800,1/0),t,t,t,t,t,t,t)}}
 Y.JF.prototype={
-$0:function(){C.q.bt(window,"https://www.instagram.com/sarthakvaswani_/","Instagram")},
+$0:function(){C.q.bt(window,"https://www.instagram.com/sarthakvaswani/","Instagram")},
 $S:0}
 Y.JG.prototype={
 $0:function(){C.q.bt(window,"https://www.linkedin.com/in/sarthak-vaswani-55123a166/","LinkedIN")},
