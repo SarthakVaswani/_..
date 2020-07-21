@@ -114,7 +114,8 @@ class Desktop extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                   child: Column(
                     children: [
                       Text(
@@ -154,7 +155,7 @@ class Desktop extends StatelessWidget {
                             ),
                             onPressed: () {
                               html.window.open(
-                                  "https://www.instagram.com/sarthakvaswani_/",
+                                  "https://www.instagram.com/sarthakvaswani/",
                                   "Instagram");
                             },
                           ),
@@ -206,7 +207,8 @@ class Desktop extends StatelessWidget {
                             ),
                             onPressed: () {
                               html.window.open(
-                                "https://github.com/SarthakVaswani", "Github");
+                                  "https://github.com/SarthakVaswani",
+                                  "Github");
                             },
                           ),
                         ],
@@ -227,7 +229,7 @@ class Mobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      constraints: BoxConstraints( minHeight: 800),
+      constraints: BoxConstraints(minHeight: 800),
       child: Column(
         children: [
           Padding(
@@ -275,7 +277,7 @@ class Mobile extends StatelessWidget {
                             ),
                             onPressed: () {
                               html.window.open(
-                                  "https://www.instagram.com/sarthakvaswani_/",
+                                  "https://www.instagram.com/sarthakvaswani/",
                                   "Instagram");
                             },
                           ),
@@ -311,7 +313,8 @@ class Mobile extends StatelessWidget {
                             ),
                             onPressed: () {
                               html.window.open(
-                                  "https://github.com/SarthakVaswani", "Github");
+                                  "https://github.com/SarthakVaswani",
+                                  "Github");
                             },
                           ),
                         ],
