@@ -110,7 +110,8 @@ class Desktop extends StatelessWidget {
                   height: 348,
                   width: 348,
                   child: CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/sv.jpg'),
+                    backgroundColor: Color(0XFF4776E6),
+                    backgroundImage: AssetImage('assets/images/sv1.jpg'),
                   ),
                 ),
                 Padding(
@@ -240,7 +241,8 @@ class Mobile extends StatelessWidget {
                   height: 270,
                   width: 270,
                   child: CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/sv.jpg'),
+                    backgroundColor: Color(0XFF4776E6),
+                    backgroundImage: AssetImage('assets/images/sv1.jpg'),
                   ),
                 ),
                 Padding(

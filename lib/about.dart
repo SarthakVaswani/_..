@@ -119,7 +119,7 @@ class About extends StatelessWidget {
                       const EdgeInsets.symmetric(horizontal: 25, vertical: 30),
                   child: ClipOval(
                     child: Image.asset(
-                      'assets/images/sv.jpg',
+                      'assets/images/sv1.jpg',
                       height: 350,
                       width: 350,
                       fit: BoxFit.cover,
@@ -183,12 +183,11 @@ class About extends StatelessWidget {
   }
 }
 
-
 class TAbout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       body: Container(
+      body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.centerLeft,
@@ -284,7 +283,7 @@ class TAbout extends StatelessWidget {
                       const EdgeInsets.symmetric(horizontal: 30, vertical: 30),
                   child: ClipOval(
                     child: Image.asset(
-                      'assets/images/sv.jpg',
+                      'assets/images/sv1.jpg',
                       height: 300,
                       width: 300,
                       fit: BoxFit.cover,
@@ -348,14 +347,12 @@ class TAbout extends StatelessWidget {
   }
 }
 
-
-
 class MAbout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        constraints: BoxConstraints( minHeight: 1200),
+        constraints: BoxConstraints(minHeight: 1200),
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.centerLeft,
@@ -375,7 +372,8 @@ class MAbout extends StatelessWidget {
                   height: 230,
                   width: 230,
                   child: CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/sv.jpg'),
+                    backgroundColor: Color(0XFF4776E6),
+                    backgroundImage: AssetImage('assets/images/sv1.jpg'),
                   ),
                 ),
               ),
@@ -404,14 +402,16 @@ class MAbout extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      'Residing at New Delhi, \ Currently pursuing',textAlign: TextAlign.center,
+                      'Residing at New Delhi, \ Currently pursuing',
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 25,
                         color: Color(0XFFE9E4F0),
                       ),
                     ),
                     Text(
-                      'BCA at Vivekananda Institute of \ Professional Studies', textAlign: TextAlign.center,
+                      'BCA at Vivekananda Institute of \ Professional Studies',
+                      textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 25, color: Color(0XFFE9E4F0)),
                     ),
                     Text(

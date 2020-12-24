@@ -39,7 +39,7 @@ class Home extends StatelessWidget {
         ),
         child: SingleChildScrollView(
           child: Container(
-            constraints: BoxConstraints( minHeight: 725),
+            constraints: BoxConstraints(minHeight: 725),
             child: Column(
               children: [Resp()],
             ),

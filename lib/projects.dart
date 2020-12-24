@@ -171,6 +171,79 @@ class _DProjectsState extends State<DProjects> {
                                       ),
                                     ),
                                     title: Text(
+                                      'Empathetic Chat Bot',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 20),
+                                    ),
+                                    subtitle: Text(
+                                      'Empathetic Chat Bot made along with ACE Members',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 20),
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                        vertical: 5, horizontal: 5),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        OutlineButton(
+                                          splashColor: Color(0XFF4286f4),
+                                          hoverColor: Color(0XFF4286f4),
+                                          shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(10),
+                                          ),
+                                          borderSide: BorderSide(
+                                            style: BorderStyle.solid,
+                                            width: 3,
+                                            color: Color(0XFF434343),
+                                          ),
+                                          highlightElevation: 200,
+                                          color: Color(0XFF4286f4),
+                                          child: Text(
+                                            'Github',
+                                            style: TextStyle(
+                                                color: Colors.black,
+                                                fontSize: 20),
+                                          ),
+                                          onPressed: () {
+                                            html.window.open(
+                                                'https://github.com/SarthakVaswani/ace_bot',
+                                                'Empathetic Chat Bot');
+                                          },
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 20, horizontal: 20),
+                          child: Card(
+                            color: Color(0XFFC9D6FF),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: Container(
+                              width: 670,
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  ListTile(
+                                    leading: CircleAvatar(
+                                      child: Icon(
+                                        Icons.info,
+                                        color: Colors.white,
+                                        size: 25,
+                                      ),
+                                    ),
+                                    title: Text(
                                       'TerraNews',
                                       style: TextStyle(
                                           color: Colors.black, fontSize: 20),
@@ -523,6 +596,72 @@ class MProjects extends StatelessWidget {
                           TextStyle(fontWeight: FontWeight.w200, fontSize: 29),
                     )
                   ],
+                ),
+              ),
+              Padding(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+                child: Card(
+                  color: Color(0XFFC9D6FF),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Container(
+                    width: 670,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        ListTile(
+                          leading: CircleAvatar(
+                            child: Icon(
+                              Icons.camera,
+                              color: Colors.white,
+                              size: 25,
+                            ),
+                          ),
+                          title: Text(
+                            'Empathetic Chat Bot',
+                            style: TextStyle(color: Colors.black, fontSize: 20),
+                          ),
+                          subtitle: Text(
+                            'Empathetic Chat Bot made along with ACE Members',
+                            style: TextStyle(color: Colors.black, fontSize: 18),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 5, horizontal: 5),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              OutlineButton(
+                                splashColor: Color(0XFF4286f4),
+                                hoverColor: Color(0XFF4286f4),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                                borderSide: BorderSide(
+                                  style: BorderStyle.solid,
+                                  width: 3,
+                                  color: Color(0XFF434343),
+                                ),
+                                highlightElevation: 200,
+                                color: Colors.black,
+                                child: ImageIcon(
+                                  AssetImage('assets/images/github-logo.png'),
+                                ),
+                                onPressed: () {
+                                  html.window.open(
+                                      'https://github.com/SarthakVaswani/ace_bot',
+                                      'Empathetic Chat Bot');
+                                },
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
               ),
               Padding(
