@@ -15,7 +15,7 @@ const RESOURCES = {
 "assets/assets/images/sv1.jpg": "30b070d011c872093cbfe3ecde47bd48",
 "assets/FontManifest.json": "07b115fe618cbad59b4ce6512f88090b",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "d352c94114438d58d25e921d9f610eb7",
+"assets/NOTICES": "eaf83d7c752fcaad740a553f33d5d111",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "favicon-16x16.png": "da6658433df00c401c4025dacf2da156",
 "favicon-32x32.png": "0e5e90f05e0d861fc1d3db8eb5aa8e3b",
@@ -23,9 +23,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "374ff77b27f745b164a7291514093e7b",
-"/": "374ff77b27f745b164a7291514093e7b",
-"main.dart.js": "3b19907aa37320de2c7288bae783cbe3",
+"index.html": "6c0356e0b05fabae922f3340319ddd3a",
+"/": "6c0356e0b05fabae922f3340319ddd3a",
+"main.dart.js": "48d2874a75cf2db561ae8d1eca34c30c",
 "manifest.json": "35d6110b8786714dd40187f90d568dc3",
 "site.webmanifest": "053100cb84a50d2ae7f5492f7dd7f25e",
 "version.json": "25f19def599b8267183ccaea98505e86"
@@ -172,7 +172,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
