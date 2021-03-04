@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
-import 'package:sarthakvaswaniportfolio/about.dart';
 
 class Resp extends StatelessWidget {
   @override
@@ -23,7 +22,7 @@ class Desktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      constraints: BoxConstraints(maxHeight: 725),
+      constraints: BoxConstraints(maxHeight: 755),
       child: Column(
         children: [
           Padding(

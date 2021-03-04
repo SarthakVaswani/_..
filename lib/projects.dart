@@ -29,9 +29,12 @@ class _DProjectsState extends State<DProjects> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Scrollbar(
+        thickness: 11,
+        showTrackOnHover: true,
         controller: _scrollController,
         isAlwaysShown: true,
         child: SingleChildScrollView(
+          controller: _scrollController,
           child: Column(
             children: [
               Container(
