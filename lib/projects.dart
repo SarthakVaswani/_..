@@ -168,6 +168,108 @@ class _DProjectsState extends State<DProjects> {
                                   ListTile(
                                     leading: CircleAvatar(
                                       child: Icon(
+                                        Icons.note_add,
+                                        color: Colors.white,
+                                        size: 25,
+                                      ),
+                                    ),
+                                    title: Text(
+                                      'NoteIt',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 20),
+                                    ),
+                                    subtitle: Text(
+                                      'A  Minimalistic Note taking App made with Flutter',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 20),
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                        vertical: 5, horizontal: 5),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        OutlineButton(
+                                          splashColor: Color(0XFF4286f4),
+                                          hoverColor: Color(0XFF4286f4),
+                                          shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(10),
+                                          ),
+                                          borderSide: BorderSide(
+                                            style: BorderStyle.solid,
+                                            width: 3,
+                                            color: Color(0XFF434343),
+                                          ),
+                                          highlightElevation: 200,
+                                          color: Color(0XFF4286f4),
+                                          child: Text(
+                                            'Github',
+                                            style: TextStyle(
+                                                color: Colors.black,
+                                                fontSize: 20),
+                                          ),
+                                          onPressed: () {
+                                            html.window.open(
+                                                'https://github.com/SarthakVaswani/NoteIt',
+                                                'NoteIt');
+                                          },
+                                        ),
+                                        SizedBox(
+                                          width: 7,
+                                        ),
+                                        OutlineButton(
+                                          splashColor: Color(0XFF4286f4),
+                                          hoverColor: Color(0XFF4286f4),
+                                          shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(10),
+                                          ),
+                                          borderSide: BorderSide(
+                                            style: BorderStyle.solid,
+                                            width: 3,
+                                            color: Color(0XFF434343),
+                                          ),
+                                          highlightElevation: 200,
+                                          color: Color(0XFF4286f4),
+                                          child: Text(
+                                            'View App',
+                                            style: TextStyle(
+                                                color: Colors.black,
+                                                fontSize: 20),
+                                          ),
+                                          onPressed: () {
+                                            html.window.open(
+                                                'https://noteit.live',
+                                                'NoteIt');
+                                          },
+                                        ),
+                                      ],
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 20, horizontal: 20),
+                          child: Card(
+                            color: Color(0XFFC9D6FF),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: Container(
+                              width: 670,
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  ListTile(
+                                    leading: CircleAvatar(
+                                      child: Icon(
                                         Icons.info,
                                         color: Colors.white,
                                         size: 25,
@@ -599,6 +701,97 @@ class MProjects extends StatelessWidget {
                           TextStyle(fontWeight: FontWeight.w200, fontSize: 29),
                     )
                   ],
+                ),
+              ),
+              Padding(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                child: Card(
+                  color: Color(0XFFC9D6FF),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Container(
+                    width: 700,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        ListTile(
+                          leading: CircleAvatar(
+                            child: Icon(
+                              Icons.note_add,
+                              color: Colors.white,
+                              size: 25,
+                            ),
+                          ),
+                          title: Text(
+                            'NoteIt',
+                            style: TextStyle(color: Colors.black, fontSize: 20),
+                          ),
+                          subtitle: Text(
+                            'A Minimalistic Note taking App made with Flutter',
+                            style: TextStyle(color: Colors.black, fontSize: 18),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 5, horizontal: 5),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              OutlineButton(
+                                splashColor: Color(0XFF4286f4),
+                                hoverColor: Color(0XFF4286f4),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                                borderSide: BorderSide(
+                                  style: BorderStyle.solid,
+                                  width: 3,
+                                  color: Color(0XFF434343),
+                                ),
+                                highlightElevation: 200,
+                                color: Colors.black,
+                                child: ImageIcon(
+                                  AssetImage('assets/images/github-logo.png'),
+                                ),
+                                onPressed: () {
+                                  html.window.open(
+                                      'https://github.com/SarthakVaswani/NoteIt',
+                                      'NoteIt');
+                                },
+                              ),
+                              SizedBox(
+                                width: 7,
+                              ),
+                              OutlineButton(
+                                splashColor: Color(0XFF4286f4),
+                                hoverColor: Color(0XFF4286f4),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                                borderSide: BorderSide(
+                                  style: BorderStyle.solid,
+                                  width: 3,
+                                  color: Color(0XFF434343),
+                                ),
+                                highlightElevation: 200,
+                                color: Color(0XFF4286f4),
+                                child: Icon(
+                                  Icons.open_in_new,
+                                  color: Colors.white,
+                                ),
+                                onPressed: () {
+                                  html.window
+                                      .open('https://noteit.live', 'NoteIt');
+                                },
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
                 ),
               ),
               Padding(
