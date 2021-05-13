@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 
-class Espo extends StatelessWidget {
+class Aboutmain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
@@ -97,7 +97,7 @@ class About extends StatelessWidget {
                     ),
                     onPressed: () {
                       html.window.open(
-                          'https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing',
+                          'https://drive.google.com/file/d/14seMiJnwqHaPikVoP3_wj1d0ebtVwPed/view?usp=sharing',
                           'Resume');
                     },
                     child: Text(
@@ -487,7 +487,7 @@ class MAbout extends StatelessWidget {
                                   ),
                                   onPressed: () {
                                     html.window.open(
-                                        'https://drive.google.com/file/d/1ph_3txR5nPQTawi9U198Zb1UcIb-w4s0/view?usp=sharing',
+                                        'https://drive.google.com/file/d/14seMiJnwqHaPikVoP3_wj1d0ebtVwPed/view?usp=sharing',
                                         'Resume');
                                   },
                                   child: Text(

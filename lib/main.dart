@@ -12,14 +12,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
+        scrollbarTheme: ScrollbarThemeData().copyWith(
+          thumbColor: MaterialStateProperty.all(Colors.black),
+        ),
         brightness: Brightness.dark,
         primaryColorDark: Colors.black,
       ),
       initialRoute: '/',
       routes: {
         '/': (context) => Home(),
-        '/second': (context) => Espo(),
-        '/third': (context) => Spo(),
+        '/second': (context) => Aboutmain(),
+        '/third': (context) => Projects(),
       },
     );
   }
@@ -41,7 +44,7 @@ class Home extends StatelessWidget {
           child: Container(
             constraints: BoxConstraints(minHeight: 725),
             child: Column(
-              children: [Resp()],
+              children: [HomePage()],
             ),
           ),
         ),
