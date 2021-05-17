@@ -229,7 +229,7 @@ class Mobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      constraints: BoxConstraints(minHeight: 800),
+      constraints: BoxConstraints(minHeight: 600),
       child: Column(
         children: [
           Padding(

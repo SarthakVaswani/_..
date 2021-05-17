@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         scrollbarTheme: ScrollbarThemeData().copyWith(
-          thumbColor: MaterialStateProperty.all(Colors.black),
+          thumbColor: MaterialStateProperty.all(Colors.white54),
         ),
         brightness: Brightness.dark,
         primaryColorDark: Colors.black,
@@ -37,7 +37,10 @@ class Home extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.centerLeft,
             end: Alignment.centerRight,
-            colors: [Color(0XFF4776E6), Color(0XFF8E54E9)],
+            colors: [
+              Color(0XFF4776E6),
+              Color(0XFF8E54E9),
+            ],
           ),
         ),
         child: SingleChildScrollView(

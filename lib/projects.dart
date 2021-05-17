@@ -3,6 +3,8 @@ import 'dart:html' as html;
 
 import 'package:sarthakvaswaniportfolio/WebViewProjects.dart';
 
+import 'data.dart';
+
 class Projects extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -150,21 +152,38 @@ class _DProjectsState extends State<DProjects> {
                                 textScaleFactor: 1,
                                 style: TextStyle(
                                     fontWeight: FontWeight.w200, fontSize: 32),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.symmetric(
+                                    vertical: 30, horizontal: 20),
+                                child: Column(
+                                  children: [
+                                    GridView.builder(
+                                      scrollDirection: Axis.vertical,
+                                      gridDelegate:
+                                          SliverGridDelegateWithFixedCrossAxisCount(
+                                        childAspectRatio: 1.1,
+                                        mainAxisSpacing: 1,
+                                        crossAxisCount: 3,
+                                        crossAxisSpacing: 1,
+                                      ),
+                                      shrinkWrap: true,
+                                      physics: NeverScrollableScrollPhysics(),
+                                      itemCount: infoList.length,
+                                      itemBuilder: (context, index) {
+                                        return ProjectGrid(
+                                          data: infoList[index],
+                                        );
+                                      },
+                                    )
+                                  ],
+                                ),
                               )
                             ],
                           ),
                         ),
                       ],
                     ),
-                    Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 50),
-                          child: WebViewProject(),
-                        )
-                      ],
-                    )
                   ],
                 ),
               ),
@@ -220,7 +239,31 @@ class MProjects extends StatelessWidget {
                   ],
                 ),
               ),
-              WebViewProject(),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 50),
+                child: Column(
+                  children: [
+                    GridView.builder(
+                      scrollDirection: Axis.vertical,
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        childAspectRatio: 1.1,
+                        mainAxisSpacing: 1,
+                        crossAxisCount: 1,
+                        crossAxisSpacing: 1,
+                      ),
+                      shrinkWrap: true,
+                      physics: NeverScrollableScrollPhysics(),
+                      itemCount: infoList.length,
+                      itemBuilder: (context, index) {
+                        return ProjectGrid(
+                          data: infoList[index],
+                        );
+                      },
+                    )
+                  ],
+                ),
+              ),
+              // WebViewProject(),
               Padding(
                 padding:
                     const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
