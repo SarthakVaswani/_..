@@ -6,16 +6,17 @@ const RESOURCES = {
   "android-chrome-192x192.png": "f416bb7d45caa131c21f74b0d3264c10",
 "android-chrome-512x512.png": "0166356c4dc414fd7331d06b5563c70c",
 "apple-touch-icon.png": "d7419387d353134c9a241c01fd030dc8",
-"assets/AssetManifest.json": "e366017a3506f500ab19d64c89123827",
+"assets/AssetManifest.json": "4d88c16842461ea778931c886c666a61",
 "assets/assets/fonts/Exo2-VariableFont_wght.ttf": "afd53ab0d9cb6142bfb815b8c9226401",
 "assets/assets/images/github-logo.png": "3e22b5ef18f9a7c3e1a68c842dd13159",
 "assets/assets/images/instagram.png": "7a7fda3b3009d91a6e4f80e94e74cf9b",
 "assets/assets/images/l.png": "1a9291b12d642cb2fa8aa8fbef5c7be1",
+"assets/assets/images/sarthak.jpg": "9951370f7d3de63563c3d66342ae1ee2",
 "assets/assets/images/sv.jpg": "981207b23efd6590564c9bffb1bf1f2a",
 "assets/assets/images/sv1.jpg": "30b070d011c872093cbfe3ecde47bd48",
 "assets/FontManifest.json": "07b115fe618cbad59b4ce6512f88090b",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "eaf83d7c752fcaad740a553f33d5d111",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "c792ef5a69057eda3505d56c1813a6e4",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "favicon-16x16.png": "da6658433df00c401c4025dacf2da156",
 "favicon-32x32.png": "0e5e90f05e0d861fc1d3db8eb5aa8e3b",
@@ -23,9 +24,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "654d7dc405dbeee2232a99d0b1993e57",
-"/": "654d7dc405dbeee2232a99d0b1993e57",
-"main.dart.js": "23f5e8a05f3060764f23517a49e66875",
+"index.html": "8ad5c12968d6880d57ec6372e60fc97c",
+"/": "8ad5c12968d6880d57ec6372e60fc97c",
+"main.dart.js": "e1402c0a1a84d56563087948e8328506",
 "manifest.json": "35d6110b8786714dd40187f90d568dc3",
 "site.webmanifest": "053100cb84a50d2ae7f5492f7dd7f25e",
 "version.json": "25f19def599b8267183ccaea98505e86"
@@ -46,7 +47,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
