@@ -13,7 +13,8 @@ final infoList = [
       title: "NewsIt",
       description: "News App made with Flutter",
       appLink: "https://github.com/SarthakVaswani/NewsIt",
-      imageUrl: "https://i.ibb.co/h1DRfGd/Screenshot-20210517-183547.jpg"),
+      imageUrl:
+          "https://user-images.githubusercontent.com/55880923/118515368-f45f0000-b752-11eb-9569-e9f2e05b6c65.jpg"),
   Infodata(
       title: "WallyIt",
       description: "Wallpaper App made with Flutter",

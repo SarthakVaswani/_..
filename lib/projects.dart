@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:html' as html;
 
 import 'package:sarthakvaswaniportfolio/WebViewProjects.dart';
+import 'package:sarthakvaswaniportfolio/about.dart';
 
 import 'data.dart';
 
@@ -33,6 +34,7 @@ class _DProjectsState extends State<DProjects> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Scrollbar(
+        interactive: true,
         thickness: 11,
         showTrackOnHover: true,
         controller: _scrollController,
@@ -116,9 +118,7 @@ class _DProjectsState extends State<DProjects> {
                               ),
                             ),
                             onPressed: () {
-                              html.window.open(
-                                  'https://drive.google.com/file/d/14seMiJnwqHaPikVoP3_wj1d0ebtVwPed/view?usp=sharing',
-                                  'Resume');
+                              html.window.open(resumeUrl, 'Resume');
                             },
                             child: Text(
                               'Resume',
@@ -162,7 +162,7 @@ class _DProjectsState extends State<DProjects> {
                                       scrollDirection: Axis.vertical,
                                       gridDelegate:
                                           SliverGridDelegateWithFixedCrossAxisCount(
-                                        childAspectRatio: 1.1,
+                                        childAspectRatio: 1.3,
                                         mainAxisSpacing: 1,
                                         crossAxisCount: 3,
                                         crossAxisSpacing: 1,
@@ -243,23 +243,83 @@ class MProjects extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 50),
                 child: Column(
                   children: [
-                    GridView.builder(
-                      scrollDirection: Axis.vertical,
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        childAspectRatio: 1.1,
-                        mainAxisSpacing: 1,
-                        crossAxisCount: 1,
-                        crossAxisSpacing: 1,
-                      ),
-                      shrinkWrap: true,
-                      physics: NeverScrollableScrollPhysics(),
-                      itemCount: infoList.length,
-                      itemBuilder: (context, index) {
-                        return ProjectGrid(
-                          data: infoList[index],
-                        );
-                      },
-                    )
+                    ListView.builder(
+                        physics: NeverScrollableScrollPhysics(),
+                        shrinkWrap: true,
+                        itemCount: infoList.length,
+                        itemBuilder: (context, index) {
+                          return Card(
+                              margin: EdgeInsets.symmetric(
+                                  vertical: 20, horizontal: 20),
+                              color: Color(0XFFC9D6FF),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              child: Container(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [
+                                    ListTile(
+                                      // leading: CircleAvatar(
+                                      //   backgroundColor: Colors.lightBlue,
+                                      //   child: Image.asset(
+                                      //     infoList[index].icon,
+                                      //     fit: BoxFit.fill,
+                                      //   ),
+                                      // ),
+                                      title: Text(
+                                        infoList[index].title,
+                                        style: TextStyle(
+                                            color: Colors.black, fontSize: 20),
+                                      ),
+
+                                      subtitle: Text(
+                                          infoList[index].description,
+                                          style: TextStyle(
+                                              color: Colors.black,
+                                              fontSize: 20)),
+                                    ),
+                                    Padding(
+                                      padding: const EdgeInsets.symmetric(
+                                          vertical: 5, horizontal: 5),
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.min,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        children: [
+                                          OutlineButton(
+                                            splashColor: Color(0XFF4286f4),
+                                            hoverColor: Color(0XFF4286f4),
+                                            shape: RoundedRectangleBorder(
+                                              borderRadius:
+                                                  BorderRadius.circular(10),
+                                            ),
+                                            borderSide: BorderSide(
+                                              style: BorderStyle.solid,
+                                              width: 3,
+                                              color: Color(0XFF434343),
+                                            ),
+                                            highlightElevation: 200,
+                                            color: Color(0XFF4286f4),
+                                            child: Text(
+                                              'View',
+                                              style: TextStyle(
+                                                  color: Colors.black,
+                                                  fontSize: 20),
+                                            ),
+                                            onPressed: () {
+                                              html.window.open(
+                                                  infoList[index].appLink,
+                                                  infoList[index].title);
+                                            },
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ));
+                        }),
                   ],
                 ),
               ),
@@ -331,9 +391,7 @@ class MProjects extends StatelessWidget {
                           ),
                         ),
                         onPressed: () {
-                          html.window.open(
-                              'https://drive.google.com/file/d/14seMiJnwqHaPikVoP3_wj1d0ebtVwPed/view?usp=sharing',
-                              'Resume');
+                          html.window.open(resumeUrl, 'Resume');
                         },
                         child: Text(
                           'Resume',

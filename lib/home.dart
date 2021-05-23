@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 
+const resumeUrl =
+    "https://drive.google.com/file/d/11NXl8eFw5DM7p2pP5vq_971VZA8tvP8k/view?usp=sharing";
+
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -86,9 +89,7 @@ class Desktop extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {
-                    html.window.open(
-                        'https://drive.google.com/file/d/14seMiJnwqHaPikVoP3_wj1d0ebtVwPed/view?usp=sharing',
-                        'Resume');
+                    html.window.open(resumeUrl, 'Resume');
                   },
                   child: Text(
                     'Resume',
@@ -110,7 +111,7 @@ class Desktop extends StatelessWidget {
                   width: 348,
                   child: CircleAvatar(
                     backgroundColor: Color(0XFF4776E6),
-                    backgroundImage: AssetImage('assets/images/sv1.jpg'),
+                    backgroundImage: AssetImage('assets/images/sarthak.jpg'),
                   ),
                 ),
                 Padding(
@@ -241,7 +242,7 @@ class Mobile extends StatelessWidget {
                   width: 270,
                   child: CircleAvatar(
                     backgroundColor: Color(0XFF4776E6),
-                    backgroundImage: AssetImage('assets/images/sv1.jpg'),
+                    backgroundImage: AssetImage('assets/images/sarthak.jpg'),
                   ),
                 ),
                 Padding(
@@ -392,9 +393,7 @@ class Mobile extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      html.window.open(
-                          'https://drive.google.com/file/d/14seMiJnwqHaPikVoP3_wj1d0ebtVwPed/view?usp=sharing',
-                          'Resume');
+                      html.window.open(resumeUrl, 'Resume');
                     },
                     child: Text(
                       'Resume',

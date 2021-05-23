@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 
+const resumeUrl =
+    "https://drive.google.com/file/d/11NXl8eFw5DM7p2pP5vq_971VZA8tvP8k/view?usp=sharing";
+
 class Aboutmain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -96,9 +99,7 @@ class About extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      html.window.open(
-                          'https://drive.google.com/file/d/14seMiJnwqHaPikVoP3_wj1d0ebtVwPed/view?usp=sharing',
-                          'Resume');
+                      html.window.open(resumeUrl, 'Resume');
                     },
                     child: Text(
                       'Resume',
@@ -118,7 +119,7 @@ class About extends StatelessWidget {
                       const EdgeInsets.symmetric(horizontal: 25, vertical: 30),
                   child: ClipOval(
                     child: Image.asset(
-                      'assets/images/sv1.jpg',
+                      'assets/images/sarthak.jpg',
                       height: 350,
                       width: 350,
                       fit: BoxFit.cover,
@@ -260,9 +261,7 @@ class TAbout extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      html.window.open(
-                          'https://drive.google.com/file/d/1Lig_nvM0Nl5gpKY7Pri7Hy0uxV73DXAE/view?usp=sharing',
-                          'Resume');
+                      html.window.open(resumeUrl, 'Resume');
                     },
                     child: Text(
                       'Resume',
@@ -282,7 +281,7 @@ class TAbout extends StatelessWidget {
                       const EdgeInsets.symmetric(horizontal: 30, vertical: 30),
                   child: ClipOval(
                     child: Image.asset(
-                      'assets/images/sv1.jpg',
+                      'assets/images/sarthak.jpg',
                       height: 300,
                       width: 300,
                       fit: BoxFit.cover,
@@ -372,7 +371,7 @@ class MAbout extends StatelessWidget {
                   width: 230,
                   child: CircleAvatar(
                     backgroundColor: Color(0XFF4776E6),
-                    backgroundImage: AssetImage('assets/images/sv1.jpg'),
+                    backgroundImage: AssetImage('assets/images/sarthak.jpg'),
                   ),
                 ),
               ),
@@ -486,9 +485,7 @@ class MAbout extends StatelessWidget {
                                     ),
                                   ),
                                   onPressed: () {
-                                    html.window.open(
-                                        'https://drive.google.com/file/d/14seMiJnwqHaPikVoP3_wj1d0ebtVwPed/view?usp=sharing',
-                                        'Resume');
+                                    html.window.open(resumeUrl, 'Resume');
                                   },
                                   child: Text(
                                     'Resume',
